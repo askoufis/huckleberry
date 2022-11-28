@@ -13,7 +13,7 @@ body {
 p {
   padding-top: 16px;
   font-size: 1.25rem;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 
 .intro-chunk {
@@ -24,10 +24,12 @@ p {
 h1 {
   margin: 0;
   padding-bottom: 32px;
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 h2 {
-  width: max-content;
+  width: fit-content;
   padding: 16px;
   padding-left: 32px;
   margin: 0;
@@ -59,7 +61,7 @@ main {
 
 .max-width-wrapper {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 em {
